@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="Home.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Dashboard</a></li>
+			</ul>
+			<p>Hello user</p>
+		</nav>
+		<div class="search-container">
+			<input type="text" placeholder="Search">
+			<button><img src="" alt=""></button>
+		</div>
+	</header>
+	<main>
+		<div class="text-links">
+			<a href="#">Total income</a>
+			<a href="#">Days off</a>
+			<a href="#">Benefit</a>
+		</div>
+		<div class="graph-container">
+			<h2>Days Off by Working time</h2>
+			<div class="chart-selector">
+				<select>
+					<option value=""></option>
+					<option value="Fulltime">Fulltime</option>
+					<option value="Parttime">Parttime</option>
+				</select>
+			</div>
+			<div class="button">
+				<a href="#">1M</a>
+				<a href="#">6M</a>
+				<a href="#">1Y</a>
+				<a href="#">ALL TIME</a>
+			</div>
+			<h3>Total shareholder days off</h3>
+			<div class="chart">
+				<canvas id="myChart"></canvas>
+			</div>
+			<h3>Total days off by sex</h3>
+		</div>
+		<div class="graph-container">
+			<h2>Days Off by department</h2>
+			<div class="chart-selector">
+				<select>
+					<option value=""></option>
+					<option value="Day">Day</option>
+					<option value="Week">Week</option>
+					<option value="Month">Month</option>
+					<option value="Year">Year</option>
+				</select>
+			</div>
+			<div class="chart">
+				<canvas id="myChart"></canvas>
+				<canvas id="myChart"></canvas>
+			</div>
+			</div>
+		</div>
+		<h3>Total days off by ethnicity</h3>
+		<div class="chart1">
+			<canvas id="myChart"></canvas>
+			</div>
+		</div>
+		
+	</main>
+</body>
+</html>
